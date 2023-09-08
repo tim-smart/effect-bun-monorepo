@@ -1,0 +1,13 @@
+{
+  "name": "app",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "bun-types": "^0.8.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  }
+}
