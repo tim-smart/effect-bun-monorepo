@@ -9,5 +9,5 @@ pnpm install
 To run:
 
 ```bash
-bun run packages/http/src/main.ts
+bun run --watch packages/http/src/main.ts
 ```

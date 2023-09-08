@@ -1,6 +1,7 @@
-.pnpm-debug.log\*
+.git
+.pnpm-debug.log*
 node_modules/
-\*.tsbuildinfo
+*.tsbuildinfo
 .npm
 .env
 .env.development.local

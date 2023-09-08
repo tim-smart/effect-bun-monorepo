@@ -13,8 +13,8 @@ const serve = Http.router.empty.pipe(
   Http.router.get("/ping", Effect.succeed(Http.response.text("pong"))),
   Http.router.get(
     "/headers",
-    Effect.flatMap(Http.request.ServerRequest, _ =>
-      Http.response.json(_.headers),
+    Effect.map(Http.request.ServerRequest, _ =>
+      Http.response.unsafeJson(_.headers),
     ),
   ),
 
