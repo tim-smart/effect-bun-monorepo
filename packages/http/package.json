@@ -10,6 +10,7 @@
     "dev": "bun run --watch ./src/main.ts"
   },
   "dependencies": {
+    "@app/core": "workspace:^",
     "@effect/platform-bun": "^0.3.2",
     "effect": "^2.0.0-next.31"
   }
