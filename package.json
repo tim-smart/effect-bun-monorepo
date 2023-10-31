@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "devDependencies": {
-    "bun-types": "^0.8.1",
+    "bun-types": "^1.0.7",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
   }
